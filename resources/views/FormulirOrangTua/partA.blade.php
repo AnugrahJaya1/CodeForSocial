@@ -2,7 +2,9 @@
 <div class="card">
     <div class="card-header">
         <a class="collapsed card-link" data-toggle="collapse" href="#collapseOne">
-            Part A
+            <h5 class="mb-0 white-text text-uppercase font-thin">
+                Part A <i class="fas fa-angle-down rotate-icon"></i>
+            </h5>
         </a>
     </div>
     <div id="collapseOne" class="collapse" data-parent="#accordion">
