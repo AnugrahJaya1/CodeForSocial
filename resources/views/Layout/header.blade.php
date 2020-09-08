@@ -27,10 +27,6 @@
             margin: 0;
         }
 
-        .full-height {
-            height: 40vh;
-        }
-
         .flex-center {
             align-items: center;
             /* display: flex; */
@@ -44,6 +40,7 @@
 
         .position-ref {
             position: relative;
+            margin-bottom: 65px;
         }
 
         .top-right {
@@ -86,7 +83,7 @@
                 });
             });
         </script> -->
-    <div class="flex-center position-ref full-height">
+    <div class="flex-center position-ref">
         @if (Route::has('login'))
         <div class="top-right links">
             @auth
