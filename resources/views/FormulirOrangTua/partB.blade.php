@@ -1,6 +1,6 @@
 @section('partB')
 <div class="card">
-    <div class="card-header">
+    <div class="card-header  rgba-stylish-strong z-depth-1 mb-1">
         <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
             <h5 class="mb-0 white-text text-uppercase font-thin">
                 Part B <i class="fas fa-angle-down rotate-icon"></i>
