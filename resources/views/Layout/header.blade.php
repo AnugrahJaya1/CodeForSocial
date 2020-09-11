@@ -117,13 +117,28 @@
     </div> -->
 
     <div class="container">
-        <div id="accordion">
-            @yield('partA')
-            @yield('partB')
-            @yield('partC')
-            @yield('partD')
-            @yield('partE')
-        </div>
+        <form>
+            <table>
+                <tr>
+                    <td>
+                        <h3>Nama : </h3>
+                    </td>
+                    <td>
+                        <input type="text" size="100">
+                    </td>
+                </tr>
+            </table>
+
+            <!-- </form> -->
+
+            <div id="accordion">
+                @yield('partA')
+                @yield('partB')
+                @yield('partC')
+                @yield('partD')
+                @yield('partE')
+            </div>
+        </form>
         <br>
         <div class="text-right">
             <button type="button" class="btn btn-primary" onclick="msg()">Print</button>
