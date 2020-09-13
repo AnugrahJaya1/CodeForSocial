@@ -95,6 +95,7 @@
                     <a href="https://github.com/laravel/laravel">GitHub</a>
                 </div>
             </div>
+            <a href="{{route('customer.printpdf')}}">Print PDF</a>
         </div>
     </body>
 </html>

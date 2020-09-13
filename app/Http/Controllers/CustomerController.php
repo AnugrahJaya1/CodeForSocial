@@ -17,7 +17,7 @@ class CustomerController extends Controller
           'content' => 'Conten'
         ];
         
-        $pdf = PDF::loadView('pdf_view', $data);  
+        $pdf = PDF::loadView('test', $data);  
         return $pdf->download('medium.pdf');
     }
 }
