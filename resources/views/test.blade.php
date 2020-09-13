@@ -8,7 +8,7 @@
     <title>Code For Social</title>
 
     <!-- Fonts -->
-    <!-- <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -21,7 +21,7 @@
         body {
             background-color: #fff;
             color: #636b6f;
-            /* font-family: 'Nunito', sans-serif; */
+            font-family: 'Nunito', sans-serif;
             font-weight: 200;
             /* height: 100vh; */
             margin: 0;
@@ -123,7 +123,11 @@
             <!-- </form> -->
 
             <div id="accordion">
-                
+                @yield('partA')
+                @yield('partB')
+                @yield('partC')
+                @yield('partD')
+                @yield('partE')
             </div>
         </form>
         <br>
