@@ -141,7 +141,7 @@
         </form>
         <br>
         <div class="text-right">
-            <button type="button" class="btn btn-primary" onclick="msg()">Print</button>
+            <button type="button" class="btn btn-primary"><a href="{{route('customer.printpdf')}}">Print PDF</a></button>
         </div>
         <br>
         <br>
