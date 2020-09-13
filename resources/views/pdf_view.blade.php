@@ -26,31 +26,38 @@
             /* height: 100vh; */
             margin: 0;
         }
+
         .flex-center {
             align-items: center;
             /* display: flex; */
             justify-content: center;
         }
+
         li {
             margin-bottom: 10px;
             margin-top: 10px;
         }
+
         .position-ref {
             position: relative;
             margin-bottom: 65px;
         }
+
         .top-right {
             position: absolute;
             right: 10px;
             top: 18px;
         }
+
         .content {
             text-align: center;
             /* position: absolute; */
         }
+
         .title {
             font-size: 84px;
         }
+
         .links>a {
             color: #636b6f;
             padding: 0 25px;
@@ -60,6 +67,7 @@
             text-decoration: none;
             text-transform: uppercase;
         }
+
         .m-b-md {
             margin-bottom: 30px;
         }
@@ -119,16 +127,10 @@
                     </td>
                 </tr>
             </table>
-
-            <!-- </form> -->
-
-            <div id="accordion">
-                
-            </div>
         </form>
         <br>
         <div class="text-right">
-            <button type="button" class="btn btn-primary" onclick="msg()">Print</button>
+            <button type="button" class="btn btn-primary"><a href="{{route('customer.printpdf')}}">Print PDF</a></button>
         </div>
         <br>
         <br>
