@@ -17,6 +17,12 @@ Route::get('/', function () {
     return view('index');
 });
 
+Route::get('/pdf', function(){
+    return view('pdf');
+});
+
+require ("pdfcrowd.php");
+
 // the recommended method is POST
 Route::post('/', function () {
     try {
@@ -24,7 +30,7 @@ Route::post('/', function () {
         $client = new \Pdfcrowd\HtmlToPdfClient("demo", "ce544b6ea52a5621fb9d55f8b542d14d");
 
         // run the conversion and store the result into the "pdf" variable
-        $pdf = $client->convertUrl("http://codeforsocial.000webhostapp.com/");
+        $pdf = $client->convertUrl("http://codeforsocial.000webhostapp.com/pdf");
 
         // send the result and set HTTP response headers
         return response($pdf)

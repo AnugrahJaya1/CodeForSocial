@@ -128,7 +128,7 @@
     </div> -->
 
     <div class="container">
-        <form action="/pdf" method="post">
+        <form action="/" method="post">
             @csrf
             <table>
                 <tr>
@@ -153,7 +153,7 @@
                             </h5>
                         </a>
                     </div>
-                    <div id="collapseOne" class="collapse" data-parent="#accordion">
+                    <!--<div id="collapseOne" class="collapse" data-parent="#accordion">-->
                         <div class="card-body">
                             <!-- <form action=""> -->
                             <h3>Instrumen Identifikasi Keagamaan</h3>
@@ -204,7 +204,7 @@
                             </ol>
                             <!-- </form> -->
                         </div>
-                    </div>
+                    <!--</div>-->
                 </div>
                 <!--@yield('partB')-->
                 <div class="card">
@@ -215,7 +215,7 @@
                             </h5>
                         </a>
                     </div>
-                    <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                    <!--<div id="collapseTwo" class="collapse" data-parent="#accordion">-->
                         <div class="card-body">
                             <!-- <form action=""> -->
                             <h3>Instrumen identifikasi Sosial dan Emosional</h3>
@@ -464,7 +464,7 @@
                             </ol>
                             <!-- </form> -->
                         </div>
-                    </div>
+                    <!--</div>-->
                 </div>
                 <!--@yield('partC')-->
                 <div class="card">
@@ -475,7 +475,7 @@
                             </h5>
                         </a>
                     </div>
-                    <div id="collapseThree" class="collapse" data-parent="#accordion">
+                    <!--<div id="collapseThree" class="collapse" data-parent="#accordion">-->
                         <div class="card-body">
                             <!-- <form action=""> -->
                             <h3>Instrumen identifikasi Kegiatan Belajar di Rumah</h3>
@@ -740,7 +740,7 @@
                             </ol>
                             <!-- </form> -->
                         </div>
-                    </div>
+                    <!--</div>-->
                 </div>
                 <!--@yield('partD')-->
                 <div class="card">
@@ -751,7 +751,7 @@
                             </h5>
                         </a>
                     </div>
-                    <div id="collapseFour" class="collapse" data-parent="#accordion">
+                    <!--<div id="collapseFour" class="collapse" data-parent="#accordion">-->
                         <div class="card-body">
                             <!-- <form action=""> -->
                             <h3>Instrumen identifikasi Area Bahasa dan Komunikasi</h3>
@@ -928,7 +928,7 @@
                             </ol>
                             <!-- </form> -->
                         </div>
-                    </div>
+                    <!--</div>-->
                 </div>
                 <!--@yield('partE')-->
                 <div class="card">
@@ -939,7 +939,7 @@
                             </h5>
                         </a>
                     </div>
-                    <div id="collapseFive" class="collapse" data-parent="#accordion">
+                    <!--<div id="collapseFive" class="collapse" data-parent="#accordion">-->
                         <div class="card-body">
                             <!-- <form action=""> -->
                             <h3>Instrumen identifikasi Pengembangan Keterampilan Diri</h3>
@@ -966,7 +966,7 @@
                             </ol>
                             <!-- </form> -->
                         </div>
-                    </div>
+                    <!--</div>-->
                 </div>
             </div>
             <br>
